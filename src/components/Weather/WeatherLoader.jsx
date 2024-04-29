@@ -1,5 +1,5 @@
 
-export const weatherLoader = async ({ request }) => {
+export const WeatherLoader = async ({ request }) => {
   const url = new URL(request.url);
   const query = url.searchParams.get('location') || 'New York';
   const apiKey = '6dc51b050723462ea11144605242904';

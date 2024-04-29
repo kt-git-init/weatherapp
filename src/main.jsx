@@ -9,28 +9,7 @@ import Contact from './components/Contact/Contact.jsx'
 import User from './components/User/User.jsx'
 import Github, { githubInfoLoader } from './components/Github/Github.jsx'
 import Weather from './components/Weather/Weather.jsx'
-import { weatherLoader } from './components/Weather/weatherLoader.jsx'
-
-// const router = createBrowserRouter([
-//   {
-//     path: '/',
-//     element: <Layout/>,
-//     children: [
-//       {
-//         path: "",
-//         element: <Home />
-//       },
-//       {
-//         path: "about",
-//         element: <About />
-//       },
-//       {
-//         path: "contact",
-//         element: <Contact />
-//       }
-//     ]
-//   }
-// ])
+import { WeatherLoader } from './components/Weather/WeatherLoader.jsx'
 
 const router = createBrowserRouter(
   createRoutesFromElements(
@@ -46,7 +25,7 @@ const router = createBrowserRouter(
       element={<Github />}
        />
        <Route 
-      loader={weatherLoader}
+      loader={WeatherLoader}
       path='weather' 
       element={<Weather />}
        />

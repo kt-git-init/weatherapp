@@ -33,7 +33,7 @@ function Weather() {
             placeholder="Enter location"
             className="text-black ml-8 w-1/2 bg-white border-black border-2 rounded-lg p-2 mb-2 mt-2 mr-2 ml-2 outline-none shadow-lg ring-2 ring-black ring-opacity-50 placeholder-black placeholder-opacity-50 font-bold font-sans font-serif 
           
-          dark:w-1/2 dark:text-black dark:bg-white dark:border-black dark:border-2 dark:rounded-lg dark:p-2 dark:mb-2 dark:mt-2 dark:mr-2 dark:ml-8 dark:outline-none dark:shadow-lg dark:ring-2 dark:ring-black dark:ring-opacity-50 dark:placeholder-black dark:placeholder-opacity-50 dark:font-bold dark:font-sans"
+          dark:w-1/2 dark:text-black dark:bg-white dark:border-black dark:border-2 dark:rounded-lg dark:p-2 dark:mb-2 dark:mt-2 dark:mr-2 dark:ml-8 dark:outline-none dark:shadow-lg dark:ring-2 dark:ring-black dark:ring-opacity-50 dark:placeholder-black dark:placeholder-opacity-50 dark:font-bold dark:font-sans dark:font-serif"
           />
           <button type="submit" className="ml-4 text-green-700 font-bold">
             Get Weather

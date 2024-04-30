@@ -28,6 +28,6 @@ function Github() {
 export default Github;
 
 export const githubInfoLoader = async () => {
-  const response = await fetch("https://api.github.com/users/kunal-tajne");
+  const response = await fetch("https://api.github.com/users/kunal-tajne-git-init");
   return response.json();
 };

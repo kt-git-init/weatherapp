@@ -36,7 +36,7 @@ export default function Footer() {
                             <ul className="text-gray-500 font-medium dark:text-white">
                                 <li className="mb-4">
                                     <a
-                                        href="https://github.com/kunal-tajne"
+                                        href="https://github.com/kunal-tajne-git-init"
                                         className="hover:underline hover:text-black"
                                         target="_blank"
                                         rel="noreferrer"
